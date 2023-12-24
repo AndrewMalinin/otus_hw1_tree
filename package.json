@@ -1,0 +1,21 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "description": "tree - is cli-app for directory structure viewing",
+  "preferGlobal": true,
+  "bin": {
+    "tree1": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "avmalinin",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63"
+  }
+}
