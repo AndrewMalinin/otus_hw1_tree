@@ -6,7 +6,6 @@ const drawTreePath = (treePath, objName, isLastObj, objIcon) => {
          return acc + '|  ';
       }
    }, '');
-
    console.log(resultString + (isLastObj ? '└──' : '├──') + objIcon + ' ' + objName);
 };
 
