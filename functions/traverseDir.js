@@ -5,9 +5,9 @@ const {drawRootDir} = require('./drawRootDir');
 const {drawTreePath} = require('./drawTreePath');
 const {OBJECT_ICON} = require('../constants/objectsIcon');
 
-function traverseDir(dirPath, maxDepth) {
+function traverseDir(dirPath, maxDepth = 1) {
    if (!fs.existsSync(dirPath)) {
-      console.log(OBJECT_ICON.ERROR + ' ' + 'Запрашиваема директория не найдена');
+      console.log(OBJECT_ICON.ERROR + ' ' + 'Запрашиваемая директория не найдена');
       return;
    }
 
